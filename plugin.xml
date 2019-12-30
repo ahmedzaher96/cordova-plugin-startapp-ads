@@ -48,7 +48,7 @@
       	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
       	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
       	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-      	<uses-permission android:name="android.permission.BLUETOOTH"  android:required="true" />
+      	<uses-permission android:name="android.permission.BLUETOOTH"  android:required="false" />
       </config-file>
       <config-file target="res/xml/config.xml" parent="/*">
           <feature name="StartAppAdsPlugin">
